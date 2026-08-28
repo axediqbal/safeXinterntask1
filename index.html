@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Ahmed Iqbal - Web Developer Intern at SafeX Solutions">
+  <title>Ahmed Iqbal | Web Developer Portfolio</title>
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo">
+        <span class="logo-accent">&lt;</span>Ahmed<span class="logo-accent">/&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active" id="link-home">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link" id="link-about">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link" id="link-skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link" id="link-projects">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge" id="hero-badge">
+            <span class="badge-dot"></span> SafeX Solutions Intern
+          </div>
+          <h1 class="hero-title" id="hero-title">
+            Hi, I'm <span class="gradient-text">Ahmed Iqbal</span>
+          </h1>
+          <p class="hero-subtitle" id="hero-subtitle">
+            Passionate <strong>Web Developer & Software Engineering Enthusiast</strong> crafting modern, responsive, and user-centric digital experiences.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary" id="btn-view-work">
+              <i class="fa-solid fa-laptop-code"></i> View My Work
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="btn-contact-me">
+              <i class="fa-regular fa-envelope"></i> Get In Touch
+            </a>
+          </div>
+          <div class="social-links" id="hero-socials">
+            <a href="https://github.com/axediqbal" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:ahmed.iqbal@safexsolutions.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="avatar-card" id="avatar-card">
+            <div class="avatar-inner">
+              <div class="avatar-glow"></div>
+              <div class="avatar-placeholder">
+                <i class="fa-solid fa-code avatar-icon"></i>
+              </div>
+            </div>
+            <div class="floating-badge badge-1">
+              <i class="fa-brands fa-html5"></i>
+              <span>Modern Web</span>
+            </div>
+            <div class="floating-badge badge-2">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Fast & Responsive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Background & Aspirations</h2>
+          <p class="section-desc">A brief introduction about my technical journey, mindset, and internship goals.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card" id="about-card-1">
+            <div class="card-icon"><i class="fa-solid fa-user-graduate"></i></div>
+            <h3>Who I Am</h3>
+            <p>
+              I am an aspiring web developer and computer enthusiast focused on building responsive, performant, and visually appealing web applications.
+            </p>
+          </div>
+
+          <div class="about-card" id="about-card-2">
+            <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <h3>Internship Track</h3>
+            <p>
+              Currently enrolled as a <strong>Web Development Intern at SafeX Solutions</strong>, committed to mastering industry workflows, clean coding practices, and team collaboration.
+            </p>
+          </div>
+
+          <div class="about-card" id="about-card-3">
+            <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Future Goals</h3>
+            <p>
+              Aiming to master full-stack technologies, integrate intelligent AI solutions, and build scalable software that solves real-world challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">My Toolbox</span>
+          <h2 class="section-title">Technical Skills & Expertise</h2>
+          <p class="section-desc">Technologies, frameworks, and developer tools I actively work with.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Frontend Category -->
+          <div class="skill-category" id="skills-frontend">
+            <div class="category-header">
+              <i class="fa-solid fa-desktop category-icon"></i>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5 (Semantic)</span>
+              <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3 & Flexbox/Grid</span>
+              <span class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+              <span class="skill-pill"><i class="fa-solid fa-mobile-screen"></i> Responsive UI/UX</span>
+            </div>
+          </div>
+
+          <!-- Programming & Backend Category -->
+          <div class="skill-category" id="skills-backend">
+            <div class="category-header">
+              <i class="fa-solid fa-server category-icon"></i>
+              <h3>Programming & Core</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-brands fa-python"></i> Python Basics</span>
+              <span class="skill-pill"><i class="fa-brands fa-node"></i> Node.js Basics</span>
+              <span class="skill-pill"><i class="fa-solid fa-brain"></i> AI Prompt Engineering</span>
+              <span class="skill-pill"><i class="fa-solid fa-gears"></i> Algorithms & Logic</span>
+            </div>
+          </div>
+
+          <!-- Tools & Workflow Category -->
+          <div class="skill-category" id="skills-tools">
+            <div class="category-header">
+              <i class="fa-solid fa-screwdriver-wrench category-icon"></i>
+              <h3>Tools & Environment</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+              <span class="skill-pill"><i class="fa-solid fa-code"></i> VS Code</span>
+              <span class="skill-pill"><i class="fa-solid fa-cloud-arrow-up"></i> Netlify / Vercel</span>
+              <span class="skill-pill"><i class="fa-brands fa-chrome"></i> Chrome DevTools</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">Practical projects built during the SafeX Solutions Internship program.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 (Day 1 Task) -->
+          <article class="project-card" id="project-day1">
+            <div class="project-preview">
+              <div class="preview-mockup">
+                <i class="fa-solid fa-globe mockup-icon"></i>
+                <span>Live Portfolio Application</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Day 1 Deliverable</span>
+              <h3>Personal Developer Portfolio</h3>
+              <p>
+                A high-performance, responsive portfolio built using semantic HTML5, modern CSS3 variables, responsive flexbox & grid architecture, and interactive theme toggling.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>GitHub Pages</span>
+              </div>
+              <div class="project-links">
+                <a href="#home" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/axediqbal/safeXinterntask1" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary"><i class="fa-brands fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-desc">Have a question or interested in collaborating? Feel free to reach out.</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-card" id="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h4>Email Address</h4>
+                <p>ahmed.iqbal@safexsolutions.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-building-columns"></i></div>
+              <div>
+                <h4>Organization</h4>
+                <p>SafeX Solutions Internship Program</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <h4>GitHub Profile</h4>
+                <p>github.com/axediqbal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Ahmed Iqbal. Built for <strong>SafeX Solutions Internship (Day 1 Task)</strong>.</p>
+      <div class="footer-socials">
+        <a href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i> Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
