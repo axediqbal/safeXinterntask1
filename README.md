@@ -26,7 +26,7 @@ This is a modern, fully responsive, and accessible personal portfolio website bu
 ---
 
 ## 🚀 Live Demo & Deployment
-- **Live Website:** [Click here to view live](https://axediqbal.github.io/safeXinterntask1/)
+- **Live Website:** safexintern-ahmediqbal2003f9.netlify.app
 - **GitHub Repository:** [https://github.com/axediqbal/safeXinterntask1](https://github.com/axediqbal/safeXinterntask1)
 
 ---
